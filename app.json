@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/car-location/car-location",
+    "pages/booking/booking",
+    "pages/booking-detail/booking-detail",
+    "pages/my-bookings/my-bookings",
+    "pages/venue-detail/venue-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "社区娱乐服务",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#999",
+    "selectedColor": "#07c160",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/car-location/car-location",
+        "text": "观光车",
+        "iconPath": "images/car.png",
+        "selectedIconPath": "images/car-active.png"
+      },
+      {
+        "pagePath": "pages/booking/booking",
+        "text": "预订",
+        "iconPath": "images/booking.png",
+        "selectedIconPath": "images/booking-active.png"
+      },
+      {
+        "pagePath": "pages/my-bookings/my-bookings",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
